@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wight@300;400;500;600&display=swap');
+
+:root{
+    --bg--color: #0f0e0eb1;
+    --tx--color: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    /* background: var(--bg--color); */
+    background-color: #0f0e0eb1;
+    color: var(--tx--color);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.box1 p{
+    /* border: 2px; */
+    background: var(--bg--color);
+    border-radius: 10px 10px 10px 10px;
+    height: 60px;
+}
+
+.box1 p:hover{
+    background-color: #201b1bb1;
+}
+
+.box2 p{
+    /* border: 2px; */
+    background: var(--bg--color);
+    border-radius: 10px 10px 10px 10px;
+    height: 60px;
+}
+
+.box2 p:hover{
+    background-color: #201b1bb1;
+}
+
+.box3 p{
+    /* border: 2px; */
+    background: var(--bg--color);
+    border-radius: 10px 10px 10px 10px;
+    height: 60px;
+}
+
+.box3 p:hover{
+    background-color: #201b1bb1;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 5px 5px 5px 5px;
+    background: var(--bg--color);
+    margin-left: 50px;
+    margin-top: 100px;
+    color: var(--tx--color);
+}
+
+.line{
+    text-decoration: underline;
+    margin-right: 80%;
+    margin-bottom: -33px;
+    margin-left: 70px;
+}
+
+.lines{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+/* @media (min-width: 768px){
+    .container{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 90px;
+    }
+
+    .input{
+        width: 90px;
+
+    }
+} */
